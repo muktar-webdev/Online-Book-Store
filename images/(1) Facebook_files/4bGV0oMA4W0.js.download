@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["qqYTT"]); }
+
+__d("ViewportAwareKeyframes.react",["Keyframes.react","React","stylex","useVisibilityObserver"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g,h=b("React"),i={root:{display:"pq6dq46d"}};function a(a){var c=a.playing;c=c===void 0?"onvisible":c;var d=a.xstyle;a=babelHelpers.objectWithoutPropertiesLoose(a,["playing","xstyle"]);var e=h.useState(!1),f=e[0],j=e[1];e=b("useVisibilityObserver")({onHidden:function(a){a=a.hiddenReason;a!=="COMPONENT_UNMOUNTED"&&j(!1)},onVisible:function(){return j(!0)}});return h.jsx("div",{className:(g||(g=b("stylex")))([i.root,d]),ref:e,children:h.jsx(b("Keyframes.react"),babelHelpers["extends"]({playing:c==="onvisible"?f:c==="always"},a))})}}),null);
